@@ -1707,6 +1707,30 @@ select.portfolio-filter-mobile {
   background: #353353;
 }
 
+/*
+ *  SCROLLBAR
+ */
+
+ /* custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 500px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6C6CE5;
+  border-radius: 500px;
+  border: 0px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #FFD15C;
+}
+
 @-webkit-keyframes ani-mouse {
   0% {
     top: 29%;
