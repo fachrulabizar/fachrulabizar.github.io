@@ -1717,12 +1717,12 @@ select.portfolio-filter-mobile {
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 500px;
+  border-radius: 1px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #6C6CE5;
-  border-radius: 500px;
+  border-radius: 1px;
   border: 0px solid transparent;
   background-clip: content-box;
 }
